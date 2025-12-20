@@ -34,7 +34,7 @@ Transfer files, control the computer, view the screen on another device..
 <h3>FAQ</h3>
 
 1. Why admin? - Needed for opening ports in Windows firewall
-2. Can the script be killed from the browser? - Yes.
+2. Can the script be killed from the browser? - Yes.\n
 3. Future Updates? - Coming soon.
 
 
