@@ -37,3 +37,9 @@ Transfer files, control the computer, view the screen on another device..
 2. Can the script be killed from the browser? - Yes.
 3. Future Updates? - Coming soon.
 
+
+<h3>FAQ</h3>
+1. Provide FlipperZero/RubberDucky script for deploying LAN-Attack
+2. Improve README.
+3. Add more functions
+
